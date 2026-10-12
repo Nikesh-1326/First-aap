@@ -12,7 +12,7 @@ function SearchBox(){
     console.log(Data)
    return(
     <div>
-        <input type="text"
+        <input type="text" 
         value={search}
         onChange={(e)=> setSearch(e.target.value)}/>
 

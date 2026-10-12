@@ -12,7 +12,7 @@ function Register(){}
     <from onSubmit = {fromSubmit}>
         <div>
             <label>Name</label>
-            <inputtype="text"/>
+            <inputtype ="text"/>
         </div>
 
     </from>

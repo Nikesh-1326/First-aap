@@ -4,6 +4,10 @@ import{useState,useEffect} from "react";
     const [timerval,settimerval]= useState(new Date());
     useEffect(()=>{
         const interval = setInterval(()=>{
+
+
+
+            
              settimerval(new Date())
 
         },1000)
@@ -14,6 +18,11 @@ import{useState,useEffect} from "react";
         <div>
             <h2>Digital Clock</h2>
             <h2>{timerval.toLocaleTimeString()}</h2>
+
+
+
+
+
             <h2>{timerval.toLocaleDateString()}</h2>
 
         </div>
